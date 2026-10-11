@@ -103,7 +103,8 @@ See also [`CITATION.cff`](CITATION.cff) for the Zenodo archive. The work, with e
 
 ## Contributors
 
-Analysis code by **Monica Coraggioso** ([ORCID](https://orcid.org/0009-0004-2091-3592)). The study was a collaborative effort; the main individual contributions were (thesis, Chapter 3):
+Analysis code and coordination by **Monica Coraggioso** ([ORCID](https://orcid.org/0009-0004-2091-3592)). 
+The study was a collaborative effort; main individual contributions:
 
 - **Leonardo Demarchi**: modelling (delayed-feedback model) and virtual-reality experiments
 - **Robert Wong** and **Geoffrey Goodhill**: computational fluid dynamics simulations ([`cfd/`](cfd/))
