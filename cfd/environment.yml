@@ -1,0 +1,30 @@
+name: cfd
+
+dependencies:
+- python=3.12
+- av
+- h5py
+- natsort
+- seaborn
+- ipywidgets
+- ipykernel
+- pandas
+- plotly
+- pytables
+- openpyxl
+- black
+- bokeh
+- scikit-learn
+- filterpy
+- nbformat
+- trimesh
+- rtree
+- scikit-image
+- numba
+- ipympl
+- tqdm
+- omegaconf
+- nbconvert
+- pip
+- pip:
+  - pymeshlab

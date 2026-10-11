@@ -1,0 +1,17 @@
+# locomotor-transition-development — Python dependencies
+# Use with: pip install -r requirements.txt
+
+numpy>=1.22,<2
+scipy>=1.9
+matplotlib>=3.5
+pandas>=1.4
+h5py>=3.7
+scikit-image>=0.19
+scikit-learn>=1.0
+lmfit>=1.0
+dcor>=0.6
+tqdm>=4.62
+ipywidgets>=8.0
+numba>=0.55
+matplotlib-scalebar>=0.8
+jupyterlab
