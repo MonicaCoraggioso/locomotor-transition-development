@@ -4,6 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17650136.svg)](https://doi.org/10.5281/zenodo.17650136)
 [![Paper](https://img.shields.io/badge/Science%20Advances-10.1126%2Fsciadv.aec6922-1f6feb)](https://doi.org/10.1126/sciadv.aec6922)
+[![Thesis](https://img.shields.io/badge/PhD%20thesis-HAL%20tel--05569582-6f42c1)](https://theses.hal.science/tel-05569582)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 
 Between 2 and 5 weeks after fertilisation, the larvae of the fish *Danionella cerebrum* switch from **continuous swimming** to **intermittent burst-and-glide swimming**. Using high-resolution posture tracking of freely swimming fish over development, virtual-reality and sensory-manipulation experiments, CFD simulations and a delayed-feedback model, we show that this transition arises from an instability in the sensorimotor loop that controls swimming speed.
@@ -96,11 +97,18 @@ All data are on Zenodo, **[10.5281/zenodo.17650136](https://doi.org/10.5281/zeno
 }
 ```
 
-See also [`CITATION.cff`](CITATION.cff) for the Zenodo archive.
+See also [`CITATION.cff`](CITATION.cff) for the Zenodo archive. The work, with extended discussion, is Chapter 3 of the PhD thesis:
+
+> Coraggioso M. *Multiscale locomotor dynamics in Danionella cerebrum.* PhD thesis, Sorbonne Université (2025). https://theses.hal.science/tel-05569582
 
 ## Contributors
 
-Analysis code by **Monica Coraggioso** ([ORCID](https://orcid.org/0009-0004-2091-3592)) and **Leonardo Demarchi** (delayed-feedback modelling and shared analysis modules), with posture PCA by **Vito Dichio** and CFD by **Robert Wong**.
+Analysis code by **Monica Coraggioso** ([ORCID](https://orcid.org/0009-0004-2091-3592)). The study was a collaborative effort; the main individual contributions were (thesis, Chapter 3):
+
+- **Leonardo Demarchi**: modelling (delayed-feedback model) and virtual-reality experiments
+- **Robert Wong** and **Geoffrey Goodhill**: computational fluid dynamics simulations ([`cfd/`](cfd/))
+- **Vito Dichio**: validation of tracking data and definition of the postural space across developmental stages ([`code/postural_space/`](code/postural_space/))
+- **Chloé Chaumeton**: 3D anatomical modelling of *Danionella* using light-sheet imaging
 
 ## License
 

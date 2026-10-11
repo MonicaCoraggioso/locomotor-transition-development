@@ -32,4 +32,4 @@ Docker image for IBAMR is available on [Docker Hub](https://hub.docker.com/repos
 
 ## Credits
 
-CFD simulations and analysis code by Robert Wong (Goodhill Lab, Washington University in St. Louis), using [ZFLOW](https://github.com/GoodhillLab/ZFLOW) and [IBAMR](https://ibamr.github.io/).
+CFD simulations and analysis code by Robert Wong and Geoffrey Goodhill (Washington University in St. Louis), using [ZFLOW](https://github.com/GoodhillLab/ZFLOW) and [IBAMR](https://ibamr.github.io/).
