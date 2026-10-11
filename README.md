@@ -82,11 +82,11 @@ All data are on Zenodo, **[10.5281/zenodo.17650136](https://doi.org/10.5281/zeno
 
 ## Methods in brief
 
-- **Kinematics.** Body midline as 19 segment angles, body length, centre-of-mass trajectory and heading at 250 fps.
+- **Kinematics.** Body midline as segment angles, centre-of-mass trajectory and heading.
 - **Bout segmentation.** Speed thresholding of thrust onsets and offsets, intermittency index η, ON/OFF duration statistics.
 - **Posture space.** PCA of segment angles (eigenshapes) and comparison across ages.
 - **Model.** Delayed-feedback speed controller fitted to the speed profiles at bout onset (`functions/feedback_models.py`, lmfit), including stability analysis in parameter space.
-- **Physics.** Strouhal number, tail-beat frequency, and CFD (IBAMR/ZFLOW) energetic efficiency of continuous vs. burst-and-coast swimming.
+- **Physics.** Reynolds number, Strouhal number, and CFD to extract energetic efficiency of continuous vs. burst-and-coast swimming.
 
 ## Citation
 
