@@ -6,7 +6,7 @@
 [![Paper](https://img.shields.io/badge/Science%20Advances-10.1126%2Fsciadv.aec6922-1f6feb)](https://doi.org/10.1126/sciadv.aec6922)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 
-Between 2 and 5 weeks after fertilisation, the larvae of the fish *Danionella cerebrum* switch from **continuous swimming** to **intermittent burst-and-glide swimming**. Using high-resolution posture tracking of freely swimming fish over development, virtual-reality and sensory-manipulation experiments, CFD simulations and a **delayed-feedback model**, we show that this transition arises from an instability in the sensorimotor loop that controls swimming speed.
+Between 2 and 5 weeks after fertilisation, the larvae of the fish *Danionella cerebrum* switch from **continuous swimming** to **intermittent burst-and-glide swimming**. Using high-resolution posture tracking of freely swimming fish over development, virtual-reality and sensory-manipulation experiments, CFD simulations and a delayed-feedback model, we show that this transition arises from an instability in the sensorimotor loop that controls swimming speed.
 
 This repository contains the notebooks and modules that produce **every main and supplementary figure** of the paper. The data were acquired with my real-time tracking software, **[fish-realtime-tracking](https://github.com/MonicaCoraggioso/fish-realtime-tracking)**.
 
@@ -106,7 +106,7 @@ See also [`CITATION.cff`](CITATION.cff) for the Zenodo archive.
 
 ## Contributors
 
-Analysis code by **Monica Coraggioso** ([ORCID](https://orcid.org/0009-0004-2091-3592)) and **Leonardo Demarchi** (delayed-feedback modelling and shared analysis modules), with posture PCA by **Vito Dichio** and CFD by **Robert Wong**. Laboratoire Jean Perrin, Sorbonne Université.
+Analysis code by **Monica Coraggioso** ([ORCID](https://orcid.org/0009-0004-2091-3592)) and **Leonardo Demarchi** (delayed-feedback modelling and shared analysis modules), with posture PCA by **Vito Dichio** and CFD by **Robert Wong**.
 
 ## License
 
