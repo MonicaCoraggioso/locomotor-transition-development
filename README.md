@@ -10,12 +10,6 @@ Between 2 and 5 weeks after fertilisation, the larvae of the fish *Danionella ce
 
 This repository contains the notebooks and modules that produce **every main and supplementary figure** of the paper. The data were acquired with my real-time tracking software, **[fish-realtime-tracking](https://github.com/MonicaCoraggioso/fish-realtime-tracking)**.
 
-<p align="center">
-  <img src="docs/figures/midline_young_vs_old.png" width="48%" alt="Midline dynamics of a young (continuous) and an older (intermittent) swimmer">
-  <img src="docs/figures/Fig_3a_onset_speed_eta_all_fish_mean.png" width="28%" alt="Speed profile at bout onset for different intermittency levels">
-</p>
-<p align="center"><sub>Left: tail kinematics of a young, continuous swimmer (top) and an older, intermittent swimmer (bottom) (Fig. 1e). Right: speed at bout onset, grouped by intermittency index η (Fig. 3a).</sub></p>
-
 ---
 
 ## Quick start
