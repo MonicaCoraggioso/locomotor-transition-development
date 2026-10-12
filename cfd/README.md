@@ -1,6 +1,6 @@
 # CFD: swimming efficiency across body sizes and swimming styles
 
-This project provides computational tools and analysis scripts for studying the swimming behavior and energetic efficiency of Danionella fish using CFD simulations. It includes workflows for data processing, simulation, and figure generation for scientific investigations.
+This project provides computational tools and analysis scripts for studying the swimming behavior and energetic efficiency of Danionella fish using Computational Fluido Dynamics (CFD) simulations. It includes workflows for data processing, simulation, and figure generation for scientific investigations.
 
 ## Figure generation from CFD simulations
 
