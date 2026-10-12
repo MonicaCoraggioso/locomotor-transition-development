@@ -98,7 +98,7 @@ See also [`CITATION.cff`](CITATION.cff) for the Zenodo archive. The work, with e
 Analysis code and coordination by **Monica Coraggioso** ([ORCID](https://orcid.org/0009-0004-2091-3592)). 
 The study was a collaborative effort; main individual contributions:
 
-- **Leonardo Demarchi**: modelling (delayed-feedback model) and virtual-reality experiments
+- **Leonardo Demarchi**: delayed-feedback model and virtual-reality experiments
 - **Robert Wong**: computational fluid dynamics simulations 
 - **Vito Dichio**: validation of tracking data and definition of the postural space across developmental stages 
 - For the full author contributions, see the [paper](https://doi.org/10.1126/sciadv.aec6922).
