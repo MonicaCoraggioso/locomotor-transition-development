@@ -99,8 +99,9 @@ Analysis code and coordination by **Monica Coraggioso** ([ORCID](https://orcid.o
 The study was a collaborative effort; main individual contributions:
 
 - **Leonardo Demarchi**: modelling (delayed-feedback model) and virtual-reality experiments
-- **Robert Wong**: computational fluid dynamics simulations ([`cfd/`](cfd/))
-- **Vito Dichio**: validation of tracking data and definition of the postural space across developmental stages ([`code/postural_space/`](code/postural_space/))
+- **Robert Wong**: computational fluid dynamics simulations 
+- **Vito Dichio**: validation of tracking data and definition of the postural space across developmental stages 
+- For the full author contributions, see the [paper](https://doi.org/10.1126/sciadv.aec6922).
 
 ## License
 
