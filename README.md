@@ -34,8 +34,8 @@ Every notebook starts by importing its paths from [`code/paths.py`](code/paths.p
 ├── code/
 │   ├── paths.py, setup_imports.py   # single source of truth for all paths
 │   ├── functions/                   # shared analysis, modelling and plotting modules
-│   ├── clean_and_segment_speed/     # 1 → 4: open, clean, segment bouts, analyse spontaneous swimming
-│   ├── postural_space/              # PCA of body shape (eigenshapes) and run alignment
+│   ├── 01_clean_and_segment_speed/     # 1 → 4: open, clean, segment bouts, analyse spontaneous swimming
+│   ├── 02_postural_space/              # PCA of body shape (eigenshapes) and run alignment
 │   └── <analysis>/                  # one folder per analysis, see the table below
 ├── cfd/                             # CFD efficiency analysis (Fig. 2d–g, S6)
 ├── scripts/download_data.py         # downloads and unpacks the Zenodo data
@@ -47,21 +47,21 @@ Every notebook starts by importing its paths from [`code/paths.py`](code/paths.p
 
 | Figure | Notebook(s) |
 |---|---|
-| 1e | `code/midline_dynamics/plot_develop_midline_traces.ipynb` |
-| 1f, S3a–c | `code/on_off/analyze_onoff_statistics.ipynb`, `plot_onoff_definition.ipynb` |
-| 1h, 3c, S4a, S7b–c | `code/intermittency_index/compute_intermittency_index.ipynb` |
-| 2b | `code/speed/analyze_speed_statistics.ipynb` |
+| 1e | `code/03_midline_dynamics/plot_develop_midline_traces.ipynb` |
+| 1f, S3a–c | `code/04_on_off/analyze_onoff_statistics.ipynb`, `plot_onoff_definition.ipynb` |
+| 1h, 3c, S4a, S7b–c | `code/05_intermittency_index/compute_intermittency_index.ipynb` |
+| 2b | `code/07_speed/analyze_speed_statistics.ipynb` |
 | 2d–g, S6b–f | `cfd/` (see [cfd/README.md](cfd/README.md)) |
-| 3a–c, S7a, S8a–c | `code/onset_speed/*.ipynb` |
-| 4b–e, S12 | `code/delayed_feedback_model/*.ipynb` |
-| 5c–d | `code/virtual_reality_experiments/bout_durations_{2,4}_wpf.ipynb` |
-| S2f–g | `code/tail_frequency/analyze_tail_frequency.ipynb` |
-| S4b | `code/bout_durations/compute_bout_durations_all_fish.ipynb` |
-| S9 | `code/speed_modulations/analyze_speed_modulations.ipynb` |
-| S10 | `code/strouhal_number/compute_strouhal_all_fish.ipynb` |
-| S11, S13 | `code/manipulation_experiments/*.ipynb` (darkness, lateral-line ablation, viscosity, zebrafish) |
+| 3a–c, S7a, S8a–c | `code/10_onset_speed/*.ipynb` |
+| 4b–e, S12 | `code/12_delayed_feedback_model/*.ipynb` |
+| 5c–d | `code/14_virtual_reality_experiments/bout_durations_{2,4}_wpf.ipynb` |
+| S2f–g | `code/08_tail_frequency/analyze_tail_frequency.ipynb` |
+| S4b | `code/06_bout_durations/compute_bout_durations_all_fish.ipynb` |
+| S9 | `code/11_speed_modulations/analyze_speed_modulations.ipynb` |
+| S10 | `code/09_strouhal_number/compute_strouhal_all_fish.ipynb` |
+| S11, S13 | `code/13_manipulation_experiments/*.ipynb` (darkness, lateral-line ablation, viscosity, zebrafish) |
 
-**Run order.** The notebooks in `clean_and_segment_speed/` (numbered 1–4) produce the cleaned speeds, thresholds and bout onsets in `data/speed_segmented/` that the other analyses read. The Zenodo archive already contains these intermediate files, so you can also open any analysis notebook directly.
+**Run order.** The notebooks in `01_clean_and_segment_speed/` (numbered 1–4) produce the cleaned speeds, thresholds and bout onsets in `data/speed_segmented/` that the other analyses read. The Zenodo archive already contains these intermediate files, so you can also open any analysis notebook directly.
 
 ## Data
 
