@@ -9,7 +9,7 @@
 
 Between 2 and 5 weeks after fertilisation, the larvae of the fish *Danionella cerebrum* switch from **continuous swimming** to **intermittent burst-and-glide swimming**. Using high-resolution posture tracking of freely swimming fish over development, virtual-reality and sensory-manipulation experiments, CFD simulations and a delayed-feedback model, we show that this transition arises from an instability in the sensorimotor loop that controls swimming speed.
 
-This repository contains the notebooks and modules that produce **every main and supplementary figure** of the paper. The data were acquired with my real-time tracking software, **[fish-realtime-tracking](https://github.com/MonicaCoraggioso/fish-realtime-tracking)**.
+This repository contains the notebooks and modules that produce **every main and supplementary figure** of the paper. The data were acquired with my real-time tracking software (see **[fish-realtime-tracking](https://github.com/MonicaCoraggioso/fish-realtime-tracking)**).
 
 ---
 
@@ -75,14 +75,6 @@ All data are on Zenodo, **[10.5281/zenodo.17650136](https://doi.org/10.5281/zeno
 | `data/manipulation_experiments/` | Darkness, lateral-line ablation, viscosity (Danionella and zebrafish) |
 | `data/cfd/` | CFD simulation inputs and outputs (`python scripts/download_data.py cfd`) |
 
-## Methods in brief
-
-- **Kinematics.** Body midline as segment angles, centre-of-mass trajectory and heading.
-- **Bout segmentation.** Speed thresholding of thrust onsets and offsets, intermittency index η, ON/OFF duration statistics.
-- **Posture space.** PCA of segment angles (eigenshapes) and comparison across ages.
-- **Model.** Delayed-feedback speed controller fitted to the speed profiles at bout onset (`functions/feedback_models.py`, lmfit), including stability analysis in parameter space.
-- **Physics.** Reynolds number, Strouhal number, and CFD to extract energetic efficiency of continuous vs. burst-and-coast swimming.
-
 ## Citation
 
 ```bibtex
@@ -107,9 +99,8 @@ Analysis code and coordination by **Monica Coraggioso** ([ORCID](https://orcid.o
 The study was a collaborative effort; main individual contributions:
 
 - **Leonardo Demarchi**: modelling (delayed-feedback model) and virtual-reality experiments
-- **Robert Wong** and **Geoffrey Goodhill**: computational fluid dynamics simulations ([`cfd/`](cfd/))
+- **Robert Wong**: computational fluid dynamics simulations ([`cfd/`](cfd/))
 - **Vito Dichio**: validation of tracking data and definition of the postural space across developmental stages ([`code/postural_space/`](code/postural_space/))
-- **Chloé Chaumeton**: 3D anatomical modelling of *Danionella* using light-sheet imaging
 
 ## License
 
